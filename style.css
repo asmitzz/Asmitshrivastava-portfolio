@@ -87,6 +87,7 @@ hr {
     width: 300px;
     display: block;
     margin: auto;
+    border-radius: 20%;
 }
 
 .header .header-heading {
