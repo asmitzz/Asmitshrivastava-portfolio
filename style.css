@@ -35,11 +35,23 @@ hr {
     color: white;
 }
 
+.primary-link:hover{
+    color: var(--primary-color);
+    background-color:white;
+    border: 1px solid #FCD34D;
+}
+
+
 .secondary-link {
     color: var(--primary-color);
     border-radius: 0.5rem;
     background-color: white;
     border: 1px solid var(--primary-color);
+}
+
+.secondary-link:hover{
+    color: white;
+    background-color:#FCD34D;
 }
 
 /* lists */
@@ -128,4 +140,11 @@ hr {
 .footer-header{
     font-weight: bold;
     font-size: large;
+}
+
+/* extra */
+
+.more-projects{
+    text-align: center;
+    color: #FCD34D;
 }
