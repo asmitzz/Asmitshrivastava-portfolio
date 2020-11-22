@@ -124,9 +124,9 @@ hr {
 .footer{
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+    padding:3rem;
     text-align: center;
-    border-top-right-radius: 0.5em;
+    border-top-right-radius: 1rem;
 }
 
 .footer a{
@@ -135,6 +135,8 @@ hr {
 
 .footer ul{
     padding-inline-start:0;
+    padding: 0 0.7rem;
+    padding-top: 1rem;
 }
 
 .footer-header{
