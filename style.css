@@ -163,11 +163,11 @@ hr {
 
 /* responsive img */
 .responsive{
-    width: 600px;
+    width: 50%;
     padding: 0.5rem;
 }
 
-@media(max-width:780px){
+/* @media(max-width:780px){
     .responsive{
         width: 500px;
     }
@@ -189,5 +189,5 @@ hr {
     .responsive{
         width: 300px;
     }
-}
+} */
 
