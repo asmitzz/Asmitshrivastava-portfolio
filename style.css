@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color:#FCD34D;
+    --primary-color: #FCD34D;
 }
 
 body {
@@ -27,6 +27,7 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    color: var(--primary-color);
 }
 
 .primary-link {
@@ -35,9 +36,9 @@ hr {
     color: white;
 }
 
-.primary-link:hover{
+.primary-link:hover {
     color: var(--primary-color);
-    background-color:white;
+    background-color: white;
     border: 1px solid #FCD34D;
 }
 
@@ -49,9 +50,9 @@ hr {
     border: 1px solid var(--primary-color);
 }
 
-.secondary-link:hover{
+.secondary-link:hover {
     color: white;
-    background-color:#FCD34D;
+    background-color: #FCD34D;
 }
 
 /* lists */
@@ -108,7 +109,7 @@ hr {
 }
 
 /* section */
-.section{
+.section {
     padding: 2rem;
 }
 
@@ -116,37 +117,37 @@ hr {
     text-align: center;
 }
 
-.ow{
+.ow {
     background-color: #D1D5DB;
 }
 
 /* footers */
-.footer{
+.footer {
     background-color: var(--primary-color);
     color: white;
-    padding:3rem;
+    padding: 3rem;
     text-align: center;
     border-top-right-radius: 1rem;
 }
 
-.footer a{
-    color:white;
+.footer a {
+    color: white;
 }
 
-.footer ul{
-    padding-inline-start:0;
+.footer ul {
+    padding-inline-start: 0;
     padding: 0 0.7rem;
     padding-top: 1rem;
 }
 
-.footer-header{
+.footer-header {
     font-weight: bold;
     font-size: large;
 }
 
 /* extra */
 
-.more-projects{
+.more-projects {
     text-align: center;
     color: #FCD34D;
 }
