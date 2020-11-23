@@ -102,11 +102,12 @@ hr {
 }
 
 .header .header-img {
-    width: 300px;
+    width:300px;
     display: block;
     margin: auto;
     border-radius: 20%;
 }
+
 
 .header .header-heading {
     padding-top: 1rem;
@@ -160,4 +161,33 @@ hr {
     color: #000080;
 }
 
-/* highlighted part */
+/* responsive img */
+.responsive{
+    width: 600px;
+    padding: 0.5rem;
+}
+
+@media(max-width:780px){
+    .responsive{
+        width: 500px;
+    }
+}
+
+@media(max-width:680px){
+    .responsive{
+        width: 450px;
+    }
+}
+
+@media(max-width:600px){
+    .responsive{
+        width: 400px;
+    }
+}
+
+@media(max-width:550px){
+    .responsive{
+        width: 300px;
+    }
+}
+
