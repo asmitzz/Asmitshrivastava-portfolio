@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
 
 :root {
-    --primary-color: #000080;
+    --primary-color:  linear-gradient(90deg, #000080,#3B82F6, #000080);
 }
 
 body {
@@ -33,14 +33,15 @@ hr {
 }
 
 .primary-link {
-    background-color: var(--primary-color);
+    background:var(--primary-color);
+
     border-radius: 0.5rem;
     color: white;
 }
 
 .primary-link:hover {
     color: var(--primary-color);
-    background-color: white;
+    background: white;
     border: 1px solid #003153;
 }
 
@@ -48,13 +49,13 @@ hr {
 .secondary-link {
     color: var(--primary-color);
     border-radius: 0.5rem;
-    background-color: white;
-    border: 1px solid var(--primary-color);
+    background: white;
+    border: 1px solid #000080;
 }
 
 .secondary-link:hover {
     color: white;
-    background-color: var(--primary-color);
+    background: var(--primary-color);
 }
 
 /* lists */
@@ -70,7 +71,8 @@ hr {
 /* nav */
 
 .nav {
-    background-color: var(--primary-color);
+    background: linear-gradient(90deg, #000080,#3B82F6, #000080);
+
     color: white;
     border-bottom-left-radius: 1rem;
 }
@@ -96,6 +98,7 @@ hr {
 .header {
     padding: 2rem;
     text-align: center;
+    background: linear-gradient(90deg, #D1D5DB,transparent ,#D1D5DB);
 }
 
 .header .header-img {
@@ -113,6 +116,7 @@ hr {
 /* section */
 .section {
     padding: 2rem;
+    background-color: #D1D5DB;
 }
 
 .section h1 {
@@ -120,12 +124,14 @@ hr {
 }
 
 .ow {
-    background-color: #D1D5DB;
+    /* background-color: #D1D5DB; */
+    background: white;
 }
 
 /* footers */
 .footer {
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
+    background: linear-gradient(90deg, #000080,#3B82F6, #000080);
     color: white;
     padding: 3rem;
     text-align: center;
@@ -151,7 +157,7 @@ hr {
 
 .more-projects {
     text-align: center;
-    color: var(--primary-color);
+    color: #000080;
 }
 
 /* highlighted part */
