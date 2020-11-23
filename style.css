@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
 
 :root {
-    --primary-color: #FCD34D;
+    --primary-color: #000080;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Texturina', serif;
     margin: 0;
 }
 
@@ -39,7 +41,7 @@ hr {
 .primary-link:hover {
     color: var(--primary-color);
     background-color: white;
-    border: 1px solid #FCD34D;
+    border: 1px solid #003153;
 }
 
 
@@ -52,7 +54,7 @@ hr {
 
 .secondary-link:hover {
     color: white;
-    background-color: #FCD34D;
+    background-color: var(--primary-color);
 }
 
 /* lists */
@@ -104,8 +106,8 @@ hr {
 }
 
 .header .header-heading {
-    color: #4B5563;
     padding-top: 1rem;
+    font-family: 'Texturina', serif;
 }
 
 /* section */
@@ -149,5 +151,7 @@ hr {
 
 .more-projects {
     text-align: center;
-    color: #FCD34D;
+    color: var(--primary-color);
 }
+
+/* highlighted part */
