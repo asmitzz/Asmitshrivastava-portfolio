@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
 :root {
     --primary-color:  linear-gradient(90deg, #000080,#3B82F6, #000080);
 }
 
 body {
-    /* font-family: 'Montserrat', sans-serif; */
-   /* font-family: 'Texturina', serif; */
-    font-family: 'Adamina', serif;
+    font-family: 'Noto Serif', serif;
     margin: 0;
 }
 
@@ -79,7 +78,8 @@ hr {
 }
 
 .nav-brand {
-    font-weight: bold;
+    font-family: 'Goldman', cursive;
+    font-size: larger;
 }
 
 .nav .nav-pills {
