@@ -162,6 +162,22 @@ hr {
     color: #000080;
 }
 
+.container-1{
+    width: 80%;
+    background:white;
+    border-radius: 0.3rem;
+    margin: auto;
+    margin-bottom:2rem;
+}
+
+.container-2{
+    width: 80%;
+    background:#D1D5DB;
+    border-radius: 0.3rem;
+    margin: auto;
+    margin-bottom:2rem;
+}
+
 /* responsive img */
 .responsive{
     width: 600px;
