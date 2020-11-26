@@ -166,7 +166,7 @@ hr {
 .responsive{
     width: 600px;
     padding: 0.5rem;
-    margin:  0 -40px;
+    margin: 0 -30px;
 }
 
 @media(max-width:780px){
