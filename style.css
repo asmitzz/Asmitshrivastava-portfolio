@@ -146,7 +146,6 @@ hr {
 
 .footer ul {
     padding-inline-start: 0;
-    padding: 0 0.7rem;
     padding-top: 1rem;
 }
 
@@ -212,4 +211,10 @@ hr {
 /* Box shadow */
 .box-shadow{
     box-shadow: 2px 4px 4px black ;
+}
+
+/* social */
+
+.social{
+    padding: 0;
 }
