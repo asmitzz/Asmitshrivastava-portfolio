@@ -135,7 +135,7 @@ hr {
     /* background-color: var(--primary-color); */
     background: linear-gradient(90deg, #000080,#3B82F6, #000080);
     color: white;
-    padding: 3rem;
+    padding: 3rem 0;
     text-align: center;
     border-top-right-radius: 1rem;
 }
@@ -217,4 +217,18 @@ hr {
 
 .social{
     padding: 0;
+    margin: 0;
+}
+
+.link img {
+    width:36px;
+    margin: 10px;
+}
+
+@media(min-width:400px){
+    .link img {
+        width:40px;
+        margin: 10px;
+    }
+    
 }
