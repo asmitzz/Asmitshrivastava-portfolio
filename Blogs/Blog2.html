@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equals to | Operator </title>
+    <link rel="stylesheet" href="../style.css">
+  
+</head>
+<body bgcolor="#D1D5DB">
+    <nav class="nav container">
+        <div class="nav-brand">WebDeveloper</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+   
+    <h1 style="text-align: center;color: rgb(21, 21, 114);">Getting Started || Learn about "==" and "===" Operator </h1>
+
+    <div class="container container-1" style="margin-top: 3rem;">
+        <h2 style="text-align: center;color: rgb(21, 21, 114);">Difference between "==" and "===" Equal Operator in JavaScript</h2>
+       <small>23 november, 2020</small>
+       <p>
+        In one word, main difference between "==" and "===" operator is that formerly compares variable by making type correction e.g. if you compare a number with a string with numeric literal, == allows that, but === doesn't allow that, because it not only checks the value but also type of two variable, if two variables are not of the same type "===" return false, while "==" return true. 
+       </p>
+      <h3 style="text-decoration: underline;">Difference between "==" and "===" Equal Operator</h3>
+      <p>Since JavaScript support both strict equality and type-converting equality, it's important to know which operator is used for which operation. As I said that, <strong>"==="</strong> takes type of variable in consideration, while <strong>"=="</strong> make type correction based upon values of variables.
+      </p>
+
+      <p>
+          When we compare two variables of different types <strong>eg.</strong> a boolean with the string or a number with the string using <strong>"=="</strong> operator,it automatically converts one type into another and return value based upon content equality, while <strong>"==="</strong> is strict equality operator in JavaScript , it also checks the type of variables hence return false and returns true only if both the variables are of same type and contains same value.
+      </p>
+      <p>
+        This will be much clear with following examples of <strong>"=="</strong> and <strong>"==="</strong> operator in JavaScript :
+      </p>
+      <p style="background: rgb(231, 230, 230);padding: 1rem;">
+        <strong>Example-1:</strong><br> <br>
+        var a = "123";
+        <br>
+        var b = 123;
+        <br>
+        if( a == b ) <br> { <br>
+           console.log("true") <br>
+        }<br> else{ <br>
+            console.log("false") <br>
+        }
+        <br>
+        <br>
+        // true, because auto type convertion, number converted into string
+      </p>
+
+      <p style="background: rgb(231, 230, 230);padding: 1rem;">
+        <strong>Example-2:</strong><br> <br>
+        var a = "123";
+        <br>
+        var b = 123;
+        <br>
+        if( a === b ) <br> { <br>
+           console.log("true") <br>
+        } <br> else{ <br>
+            console.log("false") <br>
+        }
+        <br>
+        // false, because type of both the operands are different
+      </p>
+   
+      <p style="background: rgb(231, 230, 230);padding: 1rem;">
+        <strong>Example-3:</strong><br> <br>
+        var a = false;
+        <br>
+        var b = 0;
+        <br>
+        if( a == b ) <br> { <br>
+           console.log("true") <br>
+        } <br> else{ <br>
+            console.log("false") <br>
+        }
+        <br>
+        // true, because false is equivalent of 0
+      </p>
+
+      <p style="background: rgb(231, 230, 230);padding: 1rem;">
+        <strong>Example-4:</strong><br> <br>
+        var a = true;
+        <br>
+        var b = 1;
+        <br>
+        if( a == b ) <br> { <br>
+           console.log("true") <br>
+        } <br> else{ <br>
+            console.log("false") <br>
+        }
+        <br>
+        // true, because true is equivalent of 1
+      </p>
+
+      <p style="background: rgb(231, 230, 230);padding: 1rem;">
+        <strong>Example-5:</strong><br> <br>
+        var a = false;
+        <br>
+        var b = 0;
+        <br>
+        if( a === b ) <br> { <br>
+           console.log("true") <br>
+        } <br> else{ <br>
+            console.log("false") <br>
+        }
+        <br>
+        // false, because variable 'a' is a boolean type and variable 'b' is number
+      </p>
+ 
+      <p>
+          That's all about <strong>difference between "==" and "===" JavaScript operator</strong> , you should always use strict equality operator i.e. === and avoid using == operator even if you need type convertion, instead convert the type by yourself to make it more readable. By the way, it's one of the interesting JavaScript interview Question, and you can expect in beginner level JavaScript interviews.
+      </p>
+          
+      <p>I hope you like this blog and all your doubts and confusions between <strong>"=="</strong> and <strong>"==="</strong> Operator are cleared  .  </p>
+      <h2 style="text-align: center; ">Thanks for reading!!</h2>
+     
+    </div>
+
+    <footer class="footer">
+        <div class="footer-header">Connect with me on Social media</div>
+        <ul class="list-non-bullet ">
+            <li class="list-item-inline social">
+                <a class="link" href="https://github.com/asmitzz"><img
+                        src="https://img.icons8.com/fluent/50/000000/github.png" />
+                </a>
+            </li>
+            <li class="list-item-inline social">
+                <a class="link" href="https://www.instagram.com/smit_asmit008/"><img
+                        src="https://img.icons8.com/fluent/48/000000/instagram-new.png" />
+                </a>
+            </li>
+            <li class="list-item-inline social">
+                <a class="link" href="https://twitter.com/ASMITSHRIVASTA9">
+                    <img src="https://img.icons8.com/fluent/48/000000/twitter.png" />
+                </a>
+            </li>
+            <li class="list-item-inline social">
+                <a class="link" href="https://www.linkedin.com/in/asmit-shrivastava-3b94a3189/">
+                    <img src="https://img.icons8.com/fluent/48/000000/linkedin-circled.png" />
+                </a>
+            </li>
+        </ul>
+
+    </footer>
+</body>
+</html>
