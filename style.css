@@ -231,3 +231,11 @@ hr {
     }
     
 }
+
+/* Blog-3 styles */
+.blog-3-h1{
+    background: rgb(107, 1, 98);
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    color:rgb(247, 223, 223);
+}
