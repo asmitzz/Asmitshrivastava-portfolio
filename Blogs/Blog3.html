@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn | Markdowns</title>
     <link rel="stylesheet" href="../style.css">
 </head>
+
 <body bgcolor="#D1D5DB">
 
     <nav class="nav container">
@@ -28,12 +30,206 @@
     </header>
 
     <div class="container container-1">
-        <h1>Learn Markdowns</h1>
+        <h1>Learn Markdown</h1>
         <small>11 December,2020</small>
-       <p>
-        Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform.
-       </p>
-       <h1>What is Markdowns?</h1>
+        <p>
+            Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform.
+        </p>
+        <h2>
+            <u>What is Markdown?</u>
+        </h2>
+        <p>Markdown is a way to style text on the web. You control the display of the document; formatting words as bold
+            or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly,
+            Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *.</p>
+
+        You can use Markdown most places around GitHub:
+
+        <ul>
+            <li> Gists</li>
+            <li>Comments in Issues and Pull Requests</li>
+            <li>
+                Files with the <code>.md </code> or <code>.markdown</code> extension
+            </li>
+        </ul>
+
+        <h1><u>Syntax Guide</u></h1>
+
+        <div style="background: rgb(228, 223, 223);padding: 0.5rem;margin-bottom: 1rem;">
+            <h1>Headings</h1>
+
+            <b>#</b> This is heading 1 <br>
+            <b>##</b> This is heading 2 <br>
+            <b>######</b> This is heading 6
+
+        </div>
+
+        <div style="background: rgb(202, 189, 189);padding: 0.5rem;margin-bottom: 1rem;">
+            <h1>Output</h1>
+            <h1>This is heading 1</h1>
+            <h2>This is heading 2</h2>
+            <h6>This is heading 6</h6>
+        </div>
+
+        <div style="background: rgb(228, 223, 223);padding: 0.5rem;margin-bottom: 1rem;">
+            <h1> Emphasis </h1>
+            *This text will be italic* <br>
+            _This will also be italic_ <br>
+            <br>
+            **This text will be bold** <br>
+            __This will also be bold__ <br>
+            <br>
+            _You **can** combine them_<br>
+        </div>
+
+        <div style="background: rgb(202, 189, 189);padding: 0.5rem;margin-bottom: 1rem;">
+            <h1> Output </h1>
+            <i>This text will be italic</i> <br>
+            <i>This will also be italic</i> <br>
+            <br>
+            <b> This text will be bold </b> <br>
+            <b> This will aslo be bold </b> <br>
+            <br>
+            <i>You <b>can</b> combine them</i> <br>
+        </div>
+
+
+        <div style="background: rgb(228, 223, 223);padding: 0.5rem;margin-bottom: 1rem;">
+            <h1>Lists</h1>
+            <h2>Unordered lists</h2>
+            * Coffee <br>
+            * Tea <br>
+            &nbsp;&nbsp; * Black tea<br>
+            &nbsp;&nbsp; * Green tea <br>
+
+            <br>Syntax: *[space] xyz
+
+            <br>
+            <h2>Ordered lists</h2>
+            1. Item1 <br>
+            1. Item2 <br>
+            1. Item3 <br>
+            <br>Syntax: 1.[space] xyz
+        </div>
+
+        <div style="background: rgb(202, 189, 189);padding: 0.5rem;margin-bottom: 1rem;">
+            <h1>Output</h1>
+            <h2>Unordered lists</h2>
+
+            <ul>
+                <li>Coffee</li>
+                <li>Tea
+                    <ul>
+                        <li>Black tea</li>
+                        <li>Green tea</li>
+                    </ul>
+                </li>
+            </ul>
+            <h2>Ordered lists</h2>
+            <ol>
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+            </ol>
+        </div>
+
+        <div style="background: rgb(228, 223, 223);padding: 0.5rem;margin-bottom: 1rem;">
+            <h1>Images</h1>
+            ![React logo](/images/logo.png)<br>
+            <br>
+            Syntax:&nbsp; ![Alt Text](url)
+        </div>
+
+        <div style="background: rgb(202, 189, 189);padding: 0.5rem;margin-bottom: 1rem;">
+
+            <h1>Output</h1>
+            <img style="width: 200px;"
+                src="https://images.unsplash.com/photo-1606851570850-7c96cf3eba41?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80"
+                alt="">
+        </div>
+
+        <div style="background: rgb(228, 223, 223);padding: 0.5rem;margin-bottom: 1rem;">
+            <h1>Links</h1>
+            [ GitHub ](https://github.com)<br>
+            [ Instagram ](https://instagram.com)<br>
+            [ Facebook ](https://facebook.com)<br>
+            <br>
+            Syntax:&nbsp; [Alt Text](url)
+        </div>
+
+        <div style="background: rgb(202, 189, 189);padding: 0.5rem;margin-bottom: 1rem;">
+
+            <h1>Output</h1>
+            <a style="text-decoration: none;" href="https://github.com">
+                Github
+            </a><br>
+            <a style="text-decoration: none;" href="https://instagram.com">
+                Instagram
+            </a><br>
+            <a style="text-decoration: none;" href="https://facebook.com">
+                Facebook
+            </a>
+        </div>
+
+        <div style="background: rgb(228, 223, 223);padding: 0.5rem;margin-bottom: 1rem;">
+            <h1>Blockqoutes</h1>
+            > Change is good <br>
+            > Your fate will come to you
+        </div>
+
+        <div style="background: rgb(202, 189, 189);padding: 0.5rem;margin-bottom: 1rem;">
+
+            <h1>Output</h1>
+            <blockquote style="border-left:3px solid gray ; padding: 0.5rem; background: rgb(230, 224, 224);">Change is good</blockquote>
+            <blockquote style="border-left:3px solid gray ; padding: 0.5rem; background: rgb(230, 224, 224);">Your fate will come to you</blockquote>
+        </div>
+
+        <div style="background: rgb(228, 223, 223);padding: 0.5rem;margin-bottom: 1rem;">
+            <h1>Inine code</h1>
+            `html` <br>
+            `css` <br>
+            `javasript`
+        </div>
+
+        <div style="background: rgb(202, 189, 189);padding: 0.5rem;margin-bottom: 1rem;">
+
+            <h1>Output</h1>
+                <mark style="padding: 0.1rem; border-radius: 3px; background: rgb(224, 219, 219);">html</mark><br>
+                <br>
+                <mark style="padding: 0.1rem; border-radius: 3px; background: rgb(224, 219, 219);">css</mark><br><br>
+                <mark style="padding: 0.1rem; border-radius: 3px; background: rgb(224, 219, 219);">javasript</mark>
+            
+        </div>
+
+        
+
     </div>
+    <footer class="footer">
+        <div class="footer-header">Connect with me on Social media</div>
+        <ul class="list-non-bullet ">
+            <li class="list-item-inline social">
+                <a class="link" href="https://github.com/asmitzz"><img
+                        src="https://img.icons8.com/fluent/50/000000/github.png" />
+                </a>
+            </li>
+            <li class="list-item-inline social">
+                <a class="link" href="https://www.instagram.com/smit_asmit008/"><img
+                        src="https://img.icons8.com/fluent/48/000000/instagram-new.png" />
+                </a>
+            </li>
+            <li class="list-item-inline social">
+                <a class="link" href="https://twitter.com/ASMITSHRIVASTA9">
+                    <img src="https://img.icons8.com/fluent/48/000000/twitter.png" />
+                </a>
+            </li>
+            <li class="list-item-inline social">
+                <a class="link" href="https://www.linkedin.com/in/asmit-shrivastava-3b94a3189/">
+                    <img src="https://img.icons8.com/fluent/48/000000/linkedin-circled.png" />
+                </a>
+            </li>
+        </ul>
+
+    </footer>
+
 </body>
+
 </html>
