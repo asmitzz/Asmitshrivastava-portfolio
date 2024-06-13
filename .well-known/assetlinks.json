@@ -5,7 +5,6 @@
       "namespace": "android_app",
       "package_name": "com.fxswede.waxpal",
       "sha256_cert_fingerprints": [
-        // Supports multiple fingerprints for different apps and keys
         "C4:E5:D6:F3:CD:93:60:D6:61:52:D9:EA:24:44:B4:79:68:E5:7C:CD:D7:6D:E4:A3:5B:26:4C:3F:02:67:16:F0"
       ]
     }
